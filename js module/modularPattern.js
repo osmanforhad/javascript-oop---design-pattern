@@ -1,8 +1,9 @@
+// modular Pattern
 function createCounter() {
 
     let count = 0;
 
-    //create a  clousers this is also called modular pattern
+    //create a  clousers encapsulation
     return {
 
         increment: function () {
