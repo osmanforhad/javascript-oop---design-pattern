@@ -17,4 +17,4 @@ const CreateDatabaseConnection = {
 const obj1 = CreateDatabaseConnection.connect();
 const obj2 = CreateDatabaseConnection.connect();
 
-console.log(obj1 == obj2);
+console.log(obj1 == obj2);//true
