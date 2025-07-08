@@ -2,7 +2,7 @@
 function user(name, role) {
     //constructor property
     this.name = name;
-    this.roll = roll;
+    this.role = role;
     //anonymouse function using conetructor property
     this.describe = function () {
         console.log(`${this.name} is a ${this.role}`);
